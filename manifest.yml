@@ -1,0 +1,7 @@
+---
+applications:
+- name: wangyi-rails-sample
+  memory: 256M
+  instances: 1
+  path: .
+  command: bundle exec rails s -b 0.0.0.0 -p 8080
