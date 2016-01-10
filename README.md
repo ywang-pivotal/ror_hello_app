@@ -6,10 +6,11 @@ This is the first application for the
 
 ##Buildpack -- push app
 
-'''java
+<b>
 cd <your app dir>
 bundle package --all
 '''
+</b>
 
 '''java
 cf push (using manifest.yml)
