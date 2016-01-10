@@ -4,4 +4,4 @@ applications:
   memory: 256M
   instances: 1
   path: .
-  command: bundle exec rails s -b 0.0.0.0 -p 8080
+  command: bundle package --all & bundle exec rails s -b 0.0.0.0 -p 8080
