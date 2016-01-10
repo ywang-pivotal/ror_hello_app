@@ -5,8 +5,8 @@ This is the first application for the
 
 
 * Buildpack push app
-cd <your app dir>
-bundle package --all
+	cd <your app dir>
+	bundle package --all
 
 cf push (using manifest.yml)
 or
